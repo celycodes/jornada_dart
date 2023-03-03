@@ -9,6 +9,7 @@ void main() {
   print(names);
   addName(names);
   print(names);
+  print(names.hashCode);
 }
 /*
 Conseguimos notar que a listaNames possui a mesma referencia que a lista que criamos na função
