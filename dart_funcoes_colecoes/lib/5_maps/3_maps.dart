@@ -6,12 +6,14 @@ void main() {
     'cursos': [
       {
       'nome':'Academia do Flutter',
-      'descricao':'Um dos melhores cursos e futter do Brasil'
+      'descricao':'Um dos melhores cursos e flutter do Brasil'
       },
       {
       'nome':'Flutterando MasterClass',
-      'descricao':'Um dos melhores cursos e futter do Brasil'
+      'descricao':'Um dos melhores cursos e flutter do Brasil'
       },
     ],
   };
+
+
 }
