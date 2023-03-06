@@ -5,15 +5,15 @@ void main() {
     // Parecido com um json
     'cursos': [
       {
-      'nome':'Academia do Flutter',
-      'descricao':'Um dos melhores cursos e flutter do Brasil'
+        'nome': 'Academia do Flutter',
+        'descricao': 'Um dos melhores cursos e flutter do Brasil'
       },
       {
-      'nome':'Flutterando MasterClass',
-      'descricao':'Um dos melhores cursos e flutter do Brasil'
+        'nome': 'Flutterando MasterClass',
+        'descricao': 'Um dos melhores cursos e flutter do Brasil'
       },
     ],
   };
 
-
+  print(mapa);
 }

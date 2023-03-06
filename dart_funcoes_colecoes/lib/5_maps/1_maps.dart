@@ -3,7 +3,8 @@ void main() {
 
   // Estrutura de um map de acordo com o null safety
   // mapa pode ser nulo mas se for cirado chava e valores não nulos
-  Map<String, String>? pacienteNullSafety = null;
+  Map<String, String>? pacienteNullSafety;
+  print(pacienteNullSafety);
   // mapa nãopode ser nulo mas aceita a chave nula
   var pacienteNullSafety2 = <String?, String>{
     null: 'celenny',
@@ -12,7 +13,8 @@ void main() {
   var pacienteNullSafety3 = <String, String?>{
     'nome': null,
   }; // aceita valor nulo
-
+  print(pacienteNullSafety2);
+  print(pacienteNullSafety3);
   // ADD valores no map
   // Só será adicionado se a chave não existir
   pessoas.putIfAbsent('name', () => 'Celenny Cristhyne');
