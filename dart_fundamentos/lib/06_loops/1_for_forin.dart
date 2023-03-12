@@ -1,5 +1,3 @@
-import 'package:dart_fundamentos/4_tratamento_de_nulos/2_null_aware_operator.dart';
-
 void main() {
   // For e For in
   var numbers = List.generate(10, (index) => index);
