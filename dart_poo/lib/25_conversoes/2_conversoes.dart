@@ -2,7 +2,7 @@ import 'aluno.dart';
 import 'curso.dart';
 
 void main() {
-  var studentAdf = <String, Object>{
+  var alunoAdf = <String, Object>{
     'nome': 'Celenny Cristhyne',
     'cursos': [
       {
@@ -17,14 +17,14 @@ void main() {
     ]
   };
 
-  final cursosMap = studentAdf['cursos'] as List<Map<String, String>>;
+  final cursosMap = alunoAdf['cursos'] as List<Map<String, String>>;
   final cursos = cursosMap.map((curso) {
     var nome = curso['nome'] as String;
     var descricao = curso['descricao'] as String;
     return Curso(nome, descricao);
   }).toList();
 
-  final nomeAluno = studentAdf['nome'] as String;
+  final nomeAluno = alunoAdf['nome'] as String;
   final aluno = Aluno(nomeAluno, cursos);
 
   print(aluno);
