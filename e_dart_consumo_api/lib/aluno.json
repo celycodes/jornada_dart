@@ -1,0 +1,6 @@
+{
+    "nome": "Celenny Cristhyne",
+    "idade": 21,
+    "isAluno": true,
+    "nomeCurso": ["Jornada Dart", "Imersão GetX"]
+}
