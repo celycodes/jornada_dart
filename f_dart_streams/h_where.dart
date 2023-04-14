@@ -3,15 +3,9 @@ Future<void> main() async {
   final interval = Duration(seconds: 1);
   var stream = Stream<int>.periodic(interval, callback);
 
-  stream = stream.take(5).skipWhile((n) {
-    print('Numero $n que chegou no skipWhile');
-    return n < 5;
-  });
+  stream = stream.where((n) => n % 6 == 0).take(3);
 
-  // await for
-  await for (var v in stream) {
-    print(v);
-  }
+  stream.listen((n) => print('Listen value: $n'));
 
   print('Fim');
 }
