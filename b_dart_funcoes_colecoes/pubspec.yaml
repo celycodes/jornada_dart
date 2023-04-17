@@ -1,7 +1,7 @@
 name: b_dart_fucoes_colecoes
 description: Jornada Dart funcoes e colecoes
 version: 1.0.0
-homepage: https://github.com/celycodes
+homepage: https://github.com/celycodes/jornada_dart
 
 environment:
   sdk: '>=2.17.6 <3.0.0'
